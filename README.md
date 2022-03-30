@@ -141,3 +141,19 @@ src/test/resources
 	• Log.java class to capture Logs at INFO, ERROR level:
         Log.INFO("Info Message");
         Log.ERROR("Error Message);
+
+
+## Pros and Cons of Rest API Framework Approach
+
+	**Pros**
+	1. Helps to find bug at early stage.
+    2. Takes less time to validate the functionality.
+    3. Usage of BDD, which enables non-techinal person (example BA/PO), to contribute to the test case coverage.
+    4. Resusablity of code, as same step defintion can be used across various scenarios.
+    5. Allure reporting, which provides detailed and user friendly report to the business users.
+
+	**Cons**
+	1. Cannot figure out, how user friendly the application is.
+    2. Cannot figure out, how quickly a page is getting loaded/rendered.
+    3. Token based authentication is not implemented. Example- JWT.
+    4. Jenkins integration is not implemeneted in the framework.
