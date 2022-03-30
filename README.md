@@ -59,7 +59,7 @@ src/test/resources
 1. features
 2. allure.properties
 
-## Below are instructions are how to create Rest API test framework using Rest Assured Java library
+## Below are instructions on how to create Rest API test framework using Rest Assured Java library
 
 	• Maven Dependency to add,
         // rest assured
